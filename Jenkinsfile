@@ -18,7 +18,7 @@ pipeline {
         // ⚠️ 请将下面的 WEBHOOK_URL 替换成你复制的钉钉机器人地址
         DINGTALK_WEBHOOK = 'https://oapi.dingtalk.com/robot/send?access_token=0ff68e0c01964623dc5fc5aa3bfdb2b8f070cfdb00f96efe5f0a54c4dc269c90'
         // 如果开启了加签，取消下面这行的注释，并填上你的密钥
-         DINGTALK_SECRET = 'SECfdf9e4453f719f394b8b267972ccc8b2a162d5a5850d6550334155896303d903'
+        // DINGTALK_SECRET = 'SECfdf9e4453f719f394b8b267972ccc8b2a162d5a5850d6550334155896303d903'
     }
     
     stages {
